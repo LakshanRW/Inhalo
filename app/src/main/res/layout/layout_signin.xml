@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#60000000"
+   >
+
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="61dp"
+        android:textColor="#fff"
+        android:textSize="22dp"
+        android:text="Login to Your Account"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        android:background="#fff"
+        android:layout_marginTop="60dp">
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/editEmailSignin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="76dp"
+        android:ems="10"
+
+        android:inputType="textEmailAddress"
+        android:gravity="center"
+        android:hint="Email/UserName" />
+
+    <EditText
+        android:id="@+id/editPasswordSignin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editEmailSignin"
+        android:layout_alignRight="@+id/editEmailSignin"
+        android:layout_below="@+id/editEmailSignin"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editPasswordSignin"
+        android:layout_alignLeft="@+id/editPasswordSignin"
+        android:layout_alignRight="@+id/editPasswordSignin"
+        android:layout_alignStart="@+id/editPasswordSignin"
+        android:layout_below="@+id/editPasswordSignin"
+        android:layout_marginTop="43dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="SIGN IN"
+        android:textColor="#fff" />
+
+</RelativeLayout>

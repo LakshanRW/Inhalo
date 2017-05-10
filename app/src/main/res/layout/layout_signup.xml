@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#60000000">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView32312s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textColor="#fff"
+        android:textSize="22dp"
+        android:text="Create Your Account"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView32312s"
+        android:layout_marginTop="60dp"
+        android:background="#fff">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:layout_marginTop="12dp">
+    <EditText
+        android:id="@+id/editEmailSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+
+        android:gravity="center"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:id="@+id/editUsernameSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+
+        android:gravity="center"
+        android:hint="Username"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:id="@+id/editPasswordSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword" />
+    <EditText
+        android:id="@+id/editAgeSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+
+        android:gravity="center"
+        android:hint="Age"
+        android:inputType="number" />
+    <EditText
+        android:id="@+id/editAddressSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+
+        android:gravity="center"
+        android:hint="Address"
+        android:inputType="textPostalAddress" />
+            <EditText
+                android:id="@+id/editHeightSignup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:ems="10"
+
+                android:gravity="center"
+                android:hint="Your Height (KG)"
+                android:inputType="number" />
+    <Button
+        android:id="@+id/buttonSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:text="SIGN UP"
+        android:layout_marginBottom="12dp"
+        android:textColor="#fff" />
+</LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+</ScrollView>
